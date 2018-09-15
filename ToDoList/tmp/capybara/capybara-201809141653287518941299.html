@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ToDoList</title>
+    
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-2b76f30c285f8ecd680b28abd925d41dabb586869c43b263cbe9eae6152c1177.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body>
+    <h1>SIGN UP!!!</h1>
+
+<form action=" http://www.example.com/users" method="post">
+  <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token%>'/>
+  <label >Username: 
+  <input type="text" name="user[username]" value="">
+  </label>
+  <br>
+  <br>
+  <label >Password: 
+  <input type="text" name="user[password]" value="">
+  </label>
+  <br>
+  <br>
+  <input type="submit" value="Submit!">
+</form>
+  </body>
+  
+  <a href=" http://www.example.com/users/new">Sign up!</a>
+  <a href=" http://www.example.com/session/new">Sign in!</a>
+  
+</html>
